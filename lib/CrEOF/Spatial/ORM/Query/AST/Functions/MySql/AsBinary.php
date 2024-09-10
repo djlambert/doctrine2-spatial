@@ -36,7 +36,7 @@ class AsBinary extends AbstractSpatialDQLFunction implements ReturnsGeometryInte
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'AsBinary';
+    protected $functionName = 'ST_AsBinary';
 
     protected $minGeomExpr = 1;
 
