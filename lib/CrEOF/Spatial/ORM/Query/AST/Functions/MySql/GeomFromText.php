@@ -35,7 +35,7 @@ class GeomFromText extends AbstractSpatialDQLFunction
 {
     protected $platforms = array('mysql');
 
-    protected $functionName = 'GeomFromText';
+    protected $functionName = 'ST_GeomFromText';
 
     protected $minGeomExpr = 1;
 
